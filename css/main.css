@@ -225,7 +225,7 @@ main {
     right: 50px;
     bottom: 50px;
     font-size: 0;
-    background: url(../img/scrollup_shuriken_fin2.png) no-repeat center;
+    background: url(../img/scrollup_shuriken_fin.png) no-repeat center;
     border-radius: 100%;
 }
 
@@ -320,6 +320,9 @@ footer .social {
         border-bottom: none;
     }
 
+}
+
+@media all and (max-width: 400px) {
     /* main */
     main {
         flex-direction: column;
@@ -337,6 +340,4 @@ footer .social {
         right: 15px;
         bottom: 15px;
     }
-
-    /* end-main*/
 }
